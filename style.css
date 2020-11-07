@@ -1,0 +1,375 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  height: 620px;
+  background-image: url(/img/marek-piwnicki-ooxzy4JN6gw-unsplash.jpg);
+  background-size: 100% 750px;
+}
+
+header nav .logo {
+  color: white;
+}
+
+header nav .logo h4 {
+  margin: 0;
+  padding-top: 45px;
+  padding-left: 40px;
+  opacity: 0.9;
+  letter-spacing: 4px;
+}
+
+header nav .nav {
+  display: inline-block;
+}
+
+header nav .navbar {
+  float: right;
+}
+
+header nav .navbar ul {
+  margin: 0;
+  padding-top: 45px;
+  padding-right: 20px;
+}
+
+header nav .navbar ul li {
+  letter-spacing: 1px;
+  display: inline;
+  color: white;
+  margin: 20px;
+}
+
+header nav .navbar ul li a {
+  text-decoration: none;
+  font-size: 11px;
+  color: white;
+}
+
+header nav .navbar ul li a:hover {
+  color: #eca146;
+}
+
+header nav .navbar ul li:first-child a {
+  color: #eca146;
+}
+
+header .center-headings {
+  margin-top: 150px;
+  text-align: center;
+  border-bottom: 2px;
+}
+
+header .center-headings .heading1 {
+  width: 80px;
+  height: 30px;
+  margin: auto;
+  border-bottom: 1px solid white;
+  color: white;
+  letter-spacing: 2px;
+}
+
+header .center-headings .heading2 {
+  width: 700px;
+  height: 80px;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 80px;
+  font-weight: 300;
+  font-family: "Lora", serif;
+  color: white;
+}
+
+header .center-headings .heading3 {
+  width: 500px;
+  height: 100px;
+  margin: 40px auto;
+  color: #eca146;
+  letter-spacing: 4px;
+}
+
+header .center-headings .heading4 {
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+}
+
+header .center-headings .heading4 span a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-top: 10px;
+}
+
+main .content1 {
+  width: 100%;
+  height: 350px;
+}
+
+main .content1 .heading {
+  width: 400px;
+  height: 100px;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 0.7;
+}
+
+main .content1 .text {
+  width: 900px;
+  height: 150px;
+  margin: 40px auto;
+}
+
+main .content1 .text p:last-child {
+  float: right;
+}
+
+main .content1 .text p {
+  width: 420px;
+  display: inline-block;
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+main .content2 {
+  background-image: url(/img/canyon3.jpg);
+  background-size: 100% 850px;
+  height: 500px;
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border-bottom: 2px;
+}
+
+main .content2 .heading1 {
+  width: 140px;
+  height: 30px;
+  margin: auto;
+  padding-top: 150px;
+  border-bottom: 1px solid white;
+  color: white;
+  letter-spacing: 2px;
+}
+
+main .content2 .heading2 {
+  width: 600px;
+  height: 80px;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 60px;
+  font-weight: 300;
+  font-family: "Lora", serif;
+  color: white;
+}
+
+main .content2 .heading3 {
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  color: #eca146;
+  letter-spacing: 2px;
+}
+
+main .content2 .heading4 {
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+}
+
+main .content2 .heading4 span a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-top: 10px;
+}
+
+main .content3 .heading {
+  width: 400px;
+  height: 100px;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 0.7;
+}
+
+main .content3 p {
+  width: 670px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+main .content4 {
+  width: 800px;
+  height: 100%;
+  margin: auto;
+}
+
+main .content4 .box {
+  margin-bottom: 20px;
+  width: 370px;
+  height: 500px;
+  display: inline-block;
+}
+
+main .content4 .box:nth-child(2n) {
+  float: right;
+}
+
+main .content4 .box1 .heading {
+  margin: 30px 0px;
+  opacity: 0.9;
+}
+
+main .content4 .box1 .heading .heading1 {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+main .content4 .box1 .heading .heading2 {
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+main .content4 .box1 .heading .heading3 {
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #eca146;
+}
+
+main .content4 .box2 {
+  background-image: url(./img/forest1.jpg);
+  background-size: cover;
+}
+
+main .content4 .box3 img {
+  width: 100%;
+  height: 300px;
+}
+
+main .content4 .box3 .heading {
+  margin: 30px 0px;
+  opacity: 0.9;
+}
+
+main .content4 .box3 .heading .heading1 {
+  width: 40px;
+  height: 30px;
+  margin: auto;
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+main .content4 .box3 .heading .heading2 {
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+main .content4 .box3 .heading .heading3 {
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #eca146;
+}
+
+main .content4 .box4 img {
+  width: 100%;
+  height: 300px;
+}
+
+main .content4 .box4 .heading {
+  margin: 30px 0px;
+  opacity: 0.9;
+}
+
+main .content4 .box4 .heading .heading1 {
+  width: 40px;
+  height: 30px;
+  margin: auto;
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+main .content4 .box4 .heading .heading2 {
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+main .content4 .box4 .heading .heading3 {
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #eca146;
+}
+/*# sourceMappingURL=style.css.map */
